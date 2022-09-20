@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    word-wrap: break-word;
+    font-weight: 400;
+    color: #767676;
+    background-color: #f0f2f5;
+
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.div {
+    position: relative;
+    width: 400px;
+    height: 200px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.row>* {
+
+    margin-top: 20px;
+    max-width: 100%;
+    flex-shrink: 0;
+}
+
+.row-2 {
+    margin-right: 300px;
+}
+
+
+.col {
+    flex: 1 0 0%;
+}
+
+.col-auto {
+    flex: 0 0 auto;
+    width: auto;
+}
+
+.col-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+}
+
+.col-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+}
+
+.col-3 {
+    padding: 0 20px;
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+
+.col-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}
+
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.col-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+
+}
+
+.col-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+}
+
+.col-9 {
+    flex: 0 0 auto;
+    width: 75%;
+}
+
+.col-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+}
+
+.col-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+}
+
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+/**************************/
+/* CONTACT SECTION */
+/**************************/
+.contact-section {
+    margin-bottom: 80px;
+}
+
+
+.form {
+
+    position: relative;
+    width: 400px;
+    height: 200px;
+}
+
+.form-group {
+
+    background-color: #fff;
+    width: 300px;
+    padding: 0 50px;
+    text-align: center;
+    border-radius: 10px;
+    height: 300px;
+    box-shadow:0 0 0 #fff;
+
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.form-group input {}
+
+.form-group select {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid transparent;
+    font-size: 18px;
+    color: inherit;
+    border-radius: 9px;
+
+}
+
+.form-group input::placeholder {
+    color: #aaa;
+
+}
+
+.form-group input:focus {
+    border-color: #1877f2;
+    outline: none;
+}
+
+.send {
+    background-color: #07bb2d;
+    border: none;
+    padding: 12px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    transition: all.2s ease-in;
+}
+
+.send:hover {
+    background-color: #fff;
+    color: #07bb2d;
+    cursor: pointer;
+
+}
+
+.facebook {
+    font-size: 50px;
+    color: #1877f2;
+    margin-top: 200px;
+}
+
+.icons {
+    margin-top: 200px;
+    border-radius: 10px;
+    height: 100px;
+
+}
+
+input[type="text" i] {
+    padding: 1px 2px;
+    border-radius: 5px;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 18px;
+    outline-color: #fff;
+    outline: none;
+}
+
+input[type="email" i] {
+    padding: 1px 2px;
+    border-radius: 5px;
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+
+}
+
+.log {
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: #1877f2;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+
+}
+.log:hover{
+    background-color: aqua;
+}
+
+.log-in {
+    color: blue;
+}
+
+.start {
+
+
+    border-radius: 5px;
+    border: none;
+    background-color: #07bb2d;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 10px;
+    color: #fff;
+
+}
+.start:hover{
+    background-color: #02a105;
+}
+
+.desc {
+    color: #000;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.hr {
+    margin-top: 10px;
+    color: transparent;
+    text-decoration: none;
+    color: #fff;
+}
+
+.password {
+    text-decoration: none;
+    color: #1877f2;
+    margin: 16px 0;
+}
+.password:hover{
+    text-decoration: underline;
+}
+.create{
+    margin-top: 20px;
+    color: #000;
+}
+.pass{
+    color: aqua;
+}
